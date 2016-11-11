@@ -79,3 +79,7 @@ if master_servers.find { |server_master| server_master['fqdn'] == node['fqdn'] }
     include_recipe 'cookbook-openshift3::nodes_certificates'
   end
 end
+
+if etcd_servers.find { |server_etcd| server_etcd['fqdn'] == node['fqdn'] }
+    include_recipe 'cookbook-openshift3::etcd_cluster'
+end
