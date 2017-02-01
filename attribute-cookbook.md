@@ -284,8 +284,12 @@ Installs/Configures Openshift 3.x (>= 3.2)
 
 # License and Maintainer
 
-Maintainer:: The Authors (<wburton@redhat.com>)
-Source:: https://github.com/IshentRas/cookbook-openshift3
-Issues:: https://github.com/IshentRas/cookbook-openshift3/issues
+Maintainer:: The Authors (<ian.miell@.com>)
+Source:: https://github.com/ianmiell/cookbook-openshift3
+Issues:: https://github.com/ianmiell/cookbook-openshift3/issues
+
+Upstream Maintainer:: The Authors (<wburton@redhat.com>)
+Upstream Source:: https://github.com/IshentRas/cookbook-openshift3
+Upstream Issues:: https://github.com/IshentRas/cookbook-openshift3/issues
 
 License:: all_rights
